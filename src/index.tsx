@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { App } from './App';
-import { Admin, Resource, ListGuesser } from 'react-admin'
-
 import reportWebVitals from './reportWebVitals';
+import './styles.scss'
 
 ReactDOM.render(
   <React.StrictMode>
