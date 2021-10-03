@@ -37,7 +37,7 @@ export const UserList: React.FC<ResourceComponentProps> = props => {
                     <TextField source="phone" />
                     <UrlField source="website" />
                     <TextField source="company.name" />
-                    <ButtonField<any> label="View" buttonLabel="JSON"
+                    <ButtonField<any> label="JSON" buttonLabel="View"
                         onClick={(r) => {
                             setOpenDialog(true)
                             setRecord(r)
